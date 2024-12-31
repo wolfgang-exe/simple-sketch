@@ -1,0 +1,16 @@
+.container 
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   background-color: #F0F0F0;
+}
+
+#board 
+{
+    cursor: crosshair;
+    border: 1px solid black;
+    display: block;
+}
