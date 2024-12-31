@@ -11,7 +11,7 @@ canvas.addEventListener('mouseleave', stopDrawing);
 function startDrawing(e)
 {
     isDrawing = true;
-    ctx.beginPath(e.offsetX, e.offsetY);
+    ctx.beginPath();
     ctx.moveTo(e.offsetX, e.offsetY); // set starting point
 }
 
